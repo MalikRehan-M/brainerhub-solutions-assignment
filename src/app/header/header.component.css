@@ -1,0 +1,50 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+    height: 75px;
+    background-color: #2b8eff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .Welcome{
+    display: flex;
+    align-items: center;
+  }
+  .mat-toolbar-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 99%;
+    align-content: center;
+  }
+  .active {
+    text-decoration: none;
+    color: white;
+  }
+  .links{
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .cartbtn{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85px;
+
+  }
+  .logoutbtn{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105px;
+
+  }

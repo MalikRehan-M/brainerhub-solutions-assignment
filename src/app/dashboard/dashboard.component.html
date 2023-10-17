@@ -1,0 +1,32 @@
+<div class="dashboard-card">
+  <div class="sort-filter-card">
+
+    <mat-select (selectionChange)="onCategoryChange($event)" placeholder="Select Category">
+      <mat-option [value]="" *ngIf="selectedCategory">All</mat-option>
+      <mat-option *ngFor="let category of categories" [value]="category">{{ category }}</mat-option>
+    </mat-select>
+    
+    <mat-select (selectionChange)="onSortChange($event.value)" placeholder="Sort By">
+      <mat-option value="asc">Price (Low to High)</mat-option>
+      <mat-option value="desc">Price (High to Low)</mat-option>
+    </mat-select>
+    
+    
+  </div>
+
+  <mat-card-content>
+    <div class="product" *ngFor="let product of products">
+      <mat-card class="product-card">
+        <img mat-card-image [src]="product.image" alt="Product Image" class="product-image" />
+        <mat-card-content>
+          <mat-card-title>{{ product.title }}</mat-card-title>
+          <p class="product-description"><strong>Description:</strong> {{ product.description | slice:0:100 }}</p>
+          <p><strong>Price:</strong> {{ product.price | currency }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button color="primary" (click)="addToCart(product)">Add to Cart</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </mat-card-content>
+</div>

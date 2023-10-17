@@ -1,0 +1,22 @@
+
+.cartbtn{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border: 1px solid red;
+    border-radius: 8px;
+
+  }
+  .cart{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+h2 ,h3{
+    font-weight: 600;
+ }
