@@ -1,27 +1,15 @@
 # BrainerhubSolutionsAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+For UI, Angular Material has been used.
 
-## Development server
+An external API has been used for displaying the products, i.e., [Fake Store API](https://fakestoreapi.com/products).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Here is the deployed link for the [app](https://hilarious-strudel-c5d0c6.netlify.app/) 
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Login Page
+![Screenshot 2023-10-18 095438](https://github.com/MalikRehan-M/brainerhub-solutions-assignment/assets/113381261/ee75a901-6cab-48eb-984a-335ec6a81537)
+Dashboard
+![Screenshot 2023-10-18 095503](https://github.com/MalikRehan-M/brainerhub-solutions-assignment/assets/113381261/5207c1e8-468e-44f4-b28f-ecf93bbfa942)
+Cart Page
+![Screenshot 2023-10-18 095526](https://github.com/MalikRehan-M/brainerhub-solutions-assignment/assets/113381261/c06d8559-414e-49be-a811-c0d418af945c)
